@@ -1,8 +1,10 @@
-# optional stuff that will clear the window each time you run it.
 import os
 import platform
 
 def clear_screen():
+    """
+    Clears the terminal screen to make it easier to follow along with code.
+    """
     if platform.system() == 'Windows':
         os.system('cls')
     else:
@@ -10,12 +12,14 @@ def clear_screen():
 
 clear_screen()
 
-###########################
-# START READING HERE
-###########################
+# ==================
+# DEBUGGING PRACTICE
+# ==================
 
-# find the bug!
-# note this one is harder. You might find referencing what was printed out useful.
+# 1. PRACTICE
+# find the bug! What kind of bug is this?
+# note this one is harder. You might find referencing what was printed out 
+# useful.
 
 def calculate_average(numbers):
     sum_numbers = 0
@@ -30,7 +34,8 @@ for numbers in numbers_lists:
     average = calculate_average(numbers)
     print(f"The average of {numbers} is: {average}")
 
-# Solution:
-# The error is caused by one of the list of numbers being empty, so it is dividing by zero
+# SOLUTION:
+# The error is caused by one of the list of numbers being empty,
+# so it is dividing by zero
     
 

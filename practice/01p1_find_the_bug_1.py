@@ -1,8 +1,10 @@
-# optional stuff that will clear the window each time you run it.
 import os
 import platform
 
 def clear_screen():
+    """
+    Clears the terminal screen to make it easier to follow along with code.
+    """
     if platform.system() == 'Windows':
         os.system('cls')
     else:
@@ -10,11 +12,13 @@ def clear_screen():
 
 clear_screen()
 
-###########################
-# START READING HERE
-###########################
+# ==================
+# DEBUGGING PRACTICE
+# ==================
 
-# find the bug!
+
+# 1. PRACTICE
+# find the bug! What kind of bug is it?
 
 def calculate_average(numbers):
     sum_numbers = 0
@@ -28,4 +32,5 @@ numbers_list = [10, 20, 30, 40, 50]
 
 average = calculate_averge(numbers_list)
 print(f"The average is: {average}")
+
 

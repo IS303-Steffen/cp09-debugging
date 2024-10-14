@@ -1,8 +1,10 @@
-# optional stuff that will clear the window each time you run it.
 import os
 import platform
 
 def clear_screen():
+    """
+    Clears the terminal screen to make it easier to follow along with code.
+    """
     if platform.system() == 'Windows':
         os.system('cls')
     else:
@@ -10,17 +12,19 @@ def clear_screen():
 
 clear_screen()
 
-###########################
-# START READING HERE
-###########################
+# ==================
+# DEBUGGING PRACTICE
+# ==================
 
-# What is wrong with this?
-# This code is supposed to calculate the total scores of Team A and Team B and show who won.
+# 1. PRACTICE
+# What is wrong with this code?
+# This code is supposed to calculate the total scores of Team A and Team B
+# and show who won.
 
 '''
-    Before starting, think:
-        given team_a_scores and team_b_scores,
-        who should win? What should the total scores be?
+Before starting, think:
+    given team_a_scores and team_b_scores,
+    who should win? What should the total scores be?
 '''
 
 # Scores for each member of Team A and Team B
@@ -55,9 +59,9 @@ print(f"Team B Total Score: {team_b_total}")
 determine_winner(team_a_total, team_b_total)
 
 
-# Solution:
+# SOLUTION:
 '''
-    The errors are
-        calculate_total_score is returning score instead of the total_score
-        determine_winner has errors in the first two if statement conditions
+The errors are
+    calculate_total_score is returning score instead of the total_score
+    determine_winner has errors in the first two if statement conditions
 '''
