@@ -43,21 +43,17 @@ know how to run your code.
 
 # 1. SYNTAX ERROR EXAMPLE
 # Example: What is the syntax error here?
-
-# if 5 > 2
-#     print("Five is greater than two!")
+if 5 > 2
+    print("Five is greater than two!")
 
 # 2. SYNTAX ERROR EXAMPLE
 # Example: What is the syntax error here?
-
-# 1_variable = 2
+1_variable = 2
 
 # 3. SYNTAX ERROR EXAMPLE
 # Example: What is the syntax error here?
-
-# if 5 > 2:
-#     print("Five is greater than two!)
-
+if 5 > 2:
+    print("Five is greater than two!)
 
 '''
 HOW TO FIX SYNTAX ERRORS
@@ -100,20 +96,19 @@ Think of it like trying to bake a cake. The recipe was written perfectly,
 but when following it you realize your oven isn't actually big enough and can't
 get hot enough to handle cooking the cake.
 '''
+
 # 4. RUNTIME ERROR EXAMPLE
 # Example: What causes a runtime error here?
-
-# prin("Hello, World!")
+prin("Hello, World!")
 
 # 5. RUNTIME ERROR EXAMPLE
 # Example: What causes the runtime error here?
-
-# result = 100 / 0
+result = 100 / 0
 
 # 6. RUNTIME ERROR EXAMPLE
 # Example: What could cause a runtime error here?
+user_input = int(input("Enter a valid number please: "))
 
-# user_input = int(input("Enter a valid number please: "))
 
 
 '''
@@ -145,20 +140,19 @@ you told them to go left instead of right. The instructions were clearly stated
 and understood, but they don't actually lead your friend to your house.
     
 '''
+
 # 7. LOGICAL ERROR EXAMPLE
 # Example: Is there a logical error here?
+def calculate_average(a, b):
+    return (a + b) / a 
 
-# def calculate_average(a, b):
-#     return (a + b) / a 
-
-# print(calculate_average(20, 22))
+print(calculate_average(20, 22))
 
 # 8. LOGICAL ERROR EXAMPLE
 # Example: Is this likely a logical error?
-
-# x = 5
-# if x != 5:
-#     print("x is 5")
+x = 5
+if x != 5:
+    print("x is 5")
 
 
 '''

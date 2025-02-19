@@ -21,6 +21,9 @@ clear_screen()
 # This code is supposed to calculate the total scores of Team A and Team B
 # and show who won.
 
+# For example, if one team has scores of [1, 2, 3] their
+# total score should be 6.
+
 '''
 Before starting, think:
     given team_a_scores and team_b_scores,

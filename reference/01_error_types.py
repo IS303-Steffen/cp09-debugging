@@ -43,15 +43,18 @@ know how to run your code.
 
 # 1. SYNTAX ERROR EXAMPLE
 # Example: What is the syntax error here?
+# Answer: missing a colon
 if 5 > 2
     print("Five is greater than two!")
 
 # 2. SYNTAX ERROR EXAMPLE
 # Example: What is the syntax error here?
+# Answer: invalid variable name (starts with a number)
 1_variable = 2
 
 # 3. SYNTAX ERROR EXAMPLE
 # Example: What is the syntax error here?
+# Answer: Forgot to end the quotes
 if 5 > 2:
     print("Five is greater than two!)
 
@@ -99,14 +102,17 @@ get hot enough to handle cooking the cake.
 '''
 # 4. RUNTIME ERROR EXAMPLE
 # Example: What causes a runtime error here?
+# Answer: Function prin doesn't exist.
 prin("Hello, World!")
 
 # 5. RUNTIME ERROR EXAMPLE
 # Example: What causes the runtime error here?
+# Answer: dividing by zero
 result = 100 / 0
 
 # 6. RUNTIME ERROR EXAMPLE
 # Example: What could cause a runtime error here?
+# Answer: If you provide improper input for int.
 user_input = int(input("Enter a valid number please: "))
 
 
@@ -141,6 +147,7 @@ and understood, but they don't actually lead your friend to your house.
 '''
 # 7. LOGICAL ERROR EXAMPLE
 # Example: Is there a logical error here?
+# Answer: Assuming we want to actually calulate the average, yes.
 def calculate_average(a, b):
     return (a + b) / a 
 
@@ -148,6 +155,8 @@ print(calculate_average(20, 22))
 
 # 8. LOGICAL ERROR EXAMPLE
 # Example: Is this likely a logical error?
+# Answer: Yes, we want to check whether somehting isn't 5, so there isn't
+#         alignment in the logic of the if statement and what prints.
 x = 5
 if x != 5:
     print("x is 5")
