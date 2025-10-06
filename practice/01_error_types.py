@@ -1,15 +1,4 @@
-import os
-import platform
-
-def clear_screen():
-    """
-    Clears the terminal screen to make it easier to follow along with code.
-    """
-    if platform.system() == 'Windows':
-        os.system('cls')
-    else:
-        os.system('clear')
-
+from helper_functions import clear_screen
 clear_screen()
 
 # ===========
@@ -65,9 +54,8 @@ HOW TO FIX SYNTAX ERRORS
 2. look for red squigglies
 
 3. When running your code, look for the line number where the error occured
-   when your program crashes. If you are in debug mode, it will actually
-   highlight exactly where the error occured. If not in debug, the line will
-   appear in the terminal window. Search the internet for the error or ask an AI.
+   when your program crashes. Look at that line of code and try to see what is
+   happening. You can also search the internet for the error or ask an AI.
 '''
  
 # ==============
